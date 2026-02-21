@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     "rest_framework_simplejwt",
     "django_extensions",
     "snippets",
-    "drf_yasg"
+    "drf_spectacular"
 ]
 
 MIDDLEWARE = [
@@ -98,6 +98,10 @@ REST_FRAMEWORK = {
 SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(minutes=30),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
+}
+
+REST_FRAMEWORK = {
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
 }
 
 
