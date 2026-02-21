@@ -140,3 +140,8 @@ All dependencies are listed in requirements.txt.
 pip install -r requirements.txt
 
 **Note:** Find API doc in docs/api_test.md
+
+## Sample Fixture Data
+
+This project includes a sample fixture file (`initial_data.yaml`) 
+for demonstration purposes only.
