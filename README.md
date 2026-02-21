@@ -38,7 +38,7 @@
 
 1. Clone the repository
 
-    - git clone <your_github_repo_link>
+    - git clone [<your_github_repo_link>](https://github.com/Resho-techie/snipbox-backend)
     - cd snipbox
 
 2. Create virtual environment
