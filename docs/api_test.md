@@ -1,3 +1,14 @@
+## Access API Docs
+
+# Swagger UI
+
+http://localhost:8000/swagger/
+
+# ReDoc UI:
+
+http://localhost:8000/redoc/
+
+
 Base URL:
 http://127.0.0.1:8000/
 
